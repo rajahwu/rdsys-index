@@ -1,0 +1,3 @@
+-- Full schema from yesterday's conversation
+-- Includes: agent_profiles, agent_personas, identity_markers, core_links
+-- Plus seed data for V-00, G-01, D-02, P-03

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "CF-06",
+    "name": "content-factor",
+    "path": "/home/sammy/rdsys/systems/content-factor/CF-06",
+    "relative_url": "/systems/content-factor/CF-06",
+    "assets": [
+      "brand-assets",
+      "color-system.md",
+      "core-identity.md",
+      "iconography.md",
+      "identity-marker.sql",
+      "illustration-style.md",
+      "links.md",
+      "typography.md",
+      "usage-guildelines.md"
+    ]
+  },
+  {
+    "id": "DF-14",
+    "name": "dropframe",
+    "path": "/home/sammy/rdsys/systems/grindhouse/apps/dropframe/DF-14",
+    "relative_url": "/systems/dropframe/DF-14",
+    "assets": [
+      "brand-assets",
+      "color-system.md",
+      "core-identity.md",
+      "iconography.md",
+      "identity-marker.sql",
+      "illustration-style.md",
+      "links.md",
+      "typography.md",
+      "usage-guidelines.md"
+    ]
+  },
+  {
+    "id": "GLS-15",
+    "name": "grindline",
+    "path": "/home/sammy/rdsys/systems/grindhouse/apps/grindline/GLS-15",
+    "relative_url": "/systems/grindline/GLS-15",
+    "assets": [
+      "brand-assets",
+      "color-system.md",
+      "core-identity.md",
+      "iconography.md",
+      "identity-marker.sql",
+      "illustration-style.md",
+      "links.md",
+      "typography.md",
+      "usage-guidelines.md"
+    ]
+  },
+  {
+    "id": "RC-01",
+    "name": "kernell7-shell",
+    "path": "/home/sammy/rdsys/systems/kernell7-shell/RC-01",
+    "relative_url": "/systems/kernell7-shell/RC-01",
+    "assets": [
+      "brand-assets",
+      "color-system.md",
+      "core-identity.md",
+      "iconography.md",
+      "illustration-style.md",
+      "links.md",
+      "typography.md"
+    ]
+  },
+  {
+    "id": "RS-02",
+    "name": "radiant-systems",
+    "path": "/home/sammy/rdsys/systems/radiant-systems/RS-02",
+    "relative_url": "/systems/radiant-systems/RS-02",
+    "assets": [
+      "brand-assets",
+      "color-system.md",
+      "core-identity.md",
+      "governance-model.md",
+      "iconography.md",
+      "identity-marker.sql",
+      "illustration-style.md",
+      "implementation-checklist.md",
+      "links.md",
+      "typography.md",
+      "usage-guide.md",
+      "voice-tone.md"
+    ]
+  },
+  {
+    "id": "RSW-17",
+    "name": "rsys-web",
+    "path": "/home/sammy/rdsys/systems/radiant-systems/apps/rsys-web/RSW-17",
+    "relative_url": "/systems/rsys-web/RSW-17",
+    "assets": [
+      "brand-assets",
+      "color-system.md",
+      "core-identity.md",
+      "iconography.md",
+      "illustration-style.md",
+      "links.md",
+      "typography.md"
+    ]
+  },
+  {
+    "id": "HSA-18",
+    "name": "held-stone-app",
+    "path": "/home/sammy/rdsys/systems/radiant-systems/apps/sipc-lore/held-stone-app/HSA-18",
+    "relative_url": "/systems/held-stone-app/HSA-18",
+    "assets": []
+  },
+  {
+    "id": "RSE-16",
+    "name": "relic-story-engineer",
+    "path": "/home/sammy/rdsys/systems/radiant-systems/apps/sipc-lore/relic-story-engineer/RSE-16",
+    "relative_url": "/systems/relic-story-engineer/RSE-16",
+    "assets": []
+  },
+  {
+    "id": "VSMW-10",
+    "name": "vsm-web",
+    "path": "/home/sammy/rdsys/systems/radiant-systems/apps/vsm-web/VSMW-10",
+    "relative_url": "/systems/vsm-web/VSMW-10",
+    "assets": [
+      "brand-assets.md",
+      "color-system.md",
+      "core-identity.md",
+      "iconography.md",
+      "illustration-style.md",
+      "links.md",
+      "typography.md"
+    ]
+  },
+  {
+    "id": "SS-04",
+    "name": "style-system",
+    "path": "/home/sammy/rdsys/systems/style-system/SS-04",
+    "relative_url": "/systems/style-system/SS-04",
+    "assets": [
+      "brand-assets",
+      "color-system.md",
+      "core-identity.md",
+      "iconography.md",
+      "identity-marker.sql",
+      "illustration-style.md",
+      "links.md",
+      "typography.md",
+      "usage-guidelines.md"
+    ]
+  },
+  {
+    "id": "VSMS-09",
+    "name": "vsm-school",
+    "path": "/home/sammy/rdsys/systems/vsm-school/VSMS-09",
+    "relative_url": "/systems/vsm-school/VSMS-09",
+    "assets": [
+      "brand-assets",
+      "color-system.md",
+      "core-identity.md",
+      "iconography.md",
+      "identity-marker.sql",
+      "illustration-style.md",
+      "links.md",
+      "typography.md",
+      "usage-guildelines.md"
+    ]
+  }
+]
