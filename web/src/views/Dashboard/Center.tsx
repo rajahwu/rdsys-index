@@ -1,5 +1,5 @@
 import React from 'react';
-import SystemsIndex from '@/components/systems/SystemsIndex';
+import { SystemsIndex } from '@/components/systems';
 
 export default function DashboardCenter() {
     return (

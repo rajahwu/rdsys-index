@@ -1,9 +1,9 @@
-import { NavLink, useParams } from 'react-router-dom';
+import { Link, NavLink, useParams } from 'react-router-dom';
 
 export default function ProtocolNode({ node }) {
     const { nodeLinkId } = useParams();
     const isActive = nodeLinkId === node.link_id;
-    
+
     return (
         <div className={`group border border-white/5 p-3 transition-all ${
             isActive ? 'bg-rdxt-teal/5 border-rdxt-teal/30' : 'hover:border-white/10'
@@ -14,8 +14,8 @@ export default function ProtocolNode({ node }) {
                     {node.link_id}
                 </span>
                 <span className={`text-[9px] px-2 py-0.5 border ${
-                    node.status_state === 'initialized' 
-                        ? 'border-rdxt-teal/30 text-rdxt-teal' 
+                    node.status_state === 'initialized'
+                        ? 'border-rdxt-teal/30 text-rdxt-teal'
                         : 'border-white/10 text-white/40'
                 }`}>
                     {node.status_state.toUpperCase()}
@@ -36,12 +36,24 @@ export default function ProtocolNode({ node }) {
                 ))}
             </div>
 
+            {/* Conditional Detail Link (if active) */}
+            {isActive && (
+                <div className="mb-3">
+                    <Link 
+                        to={`/corelink/${node.link_id}`} 
+                        className="text-[10px] font-bold text-rdxt-teal hover:text-rdxt-teal/80 transition-colors"
+                    >
+                        View Details →
+                    </Link>
+                </div>
+            )}
+
             {/* Action Button */}
-            <NavLink 
+            <NavLink
                 to={`/dashboard/${node.link_id}`}
                 className={`block text-center text-[10px] font-bold py-2 border transition-all ${
-                    isActive 
-                        ? 'border-rdxt-teal bg-rdxt-teal/10 text-rdxt-teal' 
+                    isActive
+                        ? 'border-rdxt-teal bg-rdxt-teal/10 text-rdxt-teal'
                         : 'border-white/10 text-white/50 hover:border-rdxt-teal/50 hover:text-rdxt-teal'
                 }`}
             >

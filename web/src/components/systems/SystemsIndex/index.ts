@@ -1,0 +1,1 @@
+export { default as SystemsIndex } from '@/components/systems/SystemsIndex/Layout';

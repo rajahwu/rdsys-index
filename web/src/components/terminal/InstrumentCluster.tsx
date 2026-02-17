@@ -1,6 +1,8 @@
 import React, { useMemo } from 'react';
 import { useHXTM, EnergyLevel } from '@/hooks/useHXTM';
-import { getOperationalGuidance } from '@/utils/flux-engine'; // Import the new engine
+import { getOperationalGuidance } from '@/utils/flux-engine';
+import { Link } from 'react-router-dom';
+
 
 const InstrumentCluster: React.FC = () => {
     const { isActive, elapsed, energy, lastHydration, startSession, setEnergy, logHydration } = useHXTM();
@@ -59,9 +61,16 @@ const InstrumentCluster: React.FC = () => {
                             </div>
                         </div>
                         {/* Visualizer for the strategy */}
+                        <div className={`grid grid-cols-1 gap-1 ${guidance.uiColor} text-center justify-items-center`}>
                         <div className="h-8 w-8 border border-white/20 flex items-center justify-center">
                             {guidance.strategy === 'AMPLIFYING' ? '↑' :
                                 guidance.strategy === 'STABILIZING' ? '⚓' : '●'}
+                        </div>
+                        <div className="text-[9px] opacity-50 mt-1">
+                            <Link to="/telemetry" className="text-[9px] opacity-50 hover:underline">
+                                VIEW_TELEMETRY
+                            </Link>
+                        </div>
                         </div>
                     </div>
                 </div>

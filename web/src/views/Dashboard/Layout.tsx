@@ -15,10 +15,12 @@ export default function DashboardLayout() {
             {/* 📡 HEADER: SYSTEM STATUS & GLOBAL TIME */}
             <DashboardHeader />
 
-            <main className="grid grid-cols-12 gap-6 items-start">
+            <main className="grid grid-cols-12 gap-6 items-start m-10 p-10">
                 {/* 🧬 LEFT: THE BIOLOGICAL WING */}
+               
 
                 <DashboardLeftWing />
+            
                 {/* ⚔️ CENTER: THE OPERATIONAL CORE */}
 
                 <DashboardCenter />

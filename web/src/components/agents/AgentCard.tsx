@@ -5,6 +5,7 @@ import { G01Sigil } from './G01Sigil';
 import { D02Sigil } from './D02Sigil';
 import { P03Sigil } from './P03Sigil';
 import { StatusIndicator } from './StatusIndicator';
+import { Link } from 'react-router-dom';
 
 // Map IDs to Sigil Components
 type SigilProps = { size?: number; status?: AgentStatus };
@@ -69,6 +70,9 @@ export function AgentCard({ agent }: AgentCardProps) {
         <div className="col-span-2 mt-1">
              <div className="text-gray-600">LATTICE_ROLE</div>
              <div className="text-emerald-400">{agent.lattice_role}</div>
+             <Link to={`/agents/${agent.agent_id}`} className="text-xs font-bold text-cyan-500 hover:text-cyan-400 transition-colors">
+                View Details →
+             </Link>
         </div>
       </div>
       
