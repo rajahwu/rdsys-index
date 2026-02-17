@@ -1,4 +1,4 @@
-import InstrumentCluster from '@/components/terminal/InstrumentCluster';
+import InstrumentCluster from '@/components/instruments/telemetry/InstrumentCluster';
 
 export default function DashboardLeftWing() {
     return (

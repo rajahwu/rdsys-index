@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import { DashboardView } from '@/views/Dashboard';
-import SystemDetailPage from '@/pages/SystemPage';
-import AgentDetailPage from '@/pages/AgentDetailPage';
-import TelemetryDetailPage from '@/pages/TelemetryPage';
+import SystemDetailPage from '@/pages/systems/SystemPage';
+import AgentDetailPage from '@/pages/agents/AgentDetailPage';
+import TelemetryDetailPage from '@/pages/telemetry/TelemetryPage';
 import '@/styles/radiant-systems.css';
 import '@/styles/app.css';
 
