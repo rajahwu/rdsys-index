@@ -3,7 +3,8 @@
 **Central lattice infrastructure for the Radiant Systems ecosystem.**
 
 ## 🏗️ Architecture Overview
-```
+
+```bash
 _index/
 ├── web/                    # Frontend lattice interface
 │   ├── src/
@@ -23,6 +24,7 @@ _index/
 ## 🧬 Core Systems
 
 ### **Web Interface**
+
 - **Framework**: Vite + React 19 + TypeScript
 - **Styling**: Tailwind CSS v4 + Clearline7 theme system
 - **Data**: Supabase (real-time agent profiles & protocol nodes)
@@ -30,19 +32,23 @@ _index/
 - **Telemetry**: HXTM (Human Experience Tracking Module)
 
 ### **AI Agent Lattice**
+
 Live coordination platform for 4 agents:
+
 - **V-00 (VINCENT)**: Relic Master Systems Architect
 - **G-01 (GEMINI)**: Architect // Soul Generator
 - **D-02 (DEEPSEEK)**: Logician // Data Architect
 - **P-03 (PERPLEXITY)**: Research // Intelligence Coordinator
 
 ### **Protocol Registry**
+
 - L7_RDXT node management
 - Paginated interface (no scrollbars)
 - Live status monitoring
 - Terminal integration
 
 ## 🚀 Quick Start
+
 ```bash
 # Install dependencies
 cd web
@@ -58,7 +64,8 @@ npm run build
 ## 📡 Environment Setup
 
 Create `web/.env` with:
-```env
+
+```bash
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_anon_key
 ```
@@ -80,4 +87,6 @@ VITE_SUPABASE_ANON_KEY=your_anon_key
 
 ---
 
-*"A thing is what it is while it is." — Pilot Manual v0.1*
+### *"A thing is what it is while it is." — Pilot Manual v0.1*
+
+---

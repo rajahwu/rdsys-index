@@ -1,13 +1,13 @@
-# **4\. Iconography**
+# **4. Iconography**
 
 Style: Clean, geometric icons with 2px stroke weight. Modern and systematic. Mix of outlined and filled styles depending on emphasis level.
 
 Stroke Width: 2px (consistent across all outlined icons)  
 Corner Radius: 2px on internal corners, rounded stroke caps  
 Sizes: 16×16px (inline), 20×20px (compact), 24×24px (standard), 32×32px (features)  
-Default Color: text.secondary (\#4B5563)  
+Default Color: text.secondary (#4B5563)  
 Active Color: Matches pipeline stage context  
-Disabled Color: neutral.border (\#E5E7EB)
+Disabled Color: neutral.border (#E5E7EB)
 
 Icon Categories:
 
